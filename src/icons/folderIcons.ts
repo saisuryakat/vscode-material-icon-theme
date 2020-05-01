@@ -67,7 +67,7 @@ export const folderIcons: FolderTheme[] = [
             { name: 'folder-config', folderNames: ['config', 'configs', 'configuration', 'configurations', 'settings', '.settings', 'META-INF'] },
             {
                 name: 'folder-i18n',
-                folderNames: ['i18n', 'internationalization', 'lang', 'language', 'languages', 'locale', 'locales', 'localization', 'translation', 'translate', 'translations', '.tx']
+                folderNames: ['i18n', 'internationalization', 'lang', 'language', 'languages', 'locale', 'locales', 'l10n', 'localization', 'translation', 'translate', 'translations', '.tx']
             },
             { name: 'folder-components', folderNames: ['components'] },
             { name: 'folder-aurelia', folderNames: ['aurelia_project'] },
@@ -110,7 +110,7 @@ export const folderIcons: FolderTheme[] = [
             { name: 'folder-other', folderNames: ['other', 'others', 'misc', 'miscellaneous', 'extra', 'extras'] },
             { name: 'folder-typescript', folderNames: ['typescript', 'ts', 'typings', '@types'] },
             { name: 'folder-graphql', folderNames: ['graphql', 'gql'] },
-            { name: 'folder-routes', folderNames: ['routes', 'router'] },
+            { name: 'folder-routes', folderNames: ['routes', 'router', 'routers'] },
             { name: 'folder-ci', folderNames: ['.ci', 'ci'] },
             { name: 'folder-benchmark', folderNames: ['benchmark', 'benchmarks', 'performance', 'measure', 'measures', 'measurement'] },
             { name: 'folder-messages', folderNames: ['messages', 'forum', 'chat', 'chats', 'conversation', 'conversations'] },
@@ -152,11 +152,11 @@ export const folderIcons: FolderTheme[] = [
             { name: 'folder-job', folderNames: ['job', 'jobs'] },
             { name: 'folder-keys', folderNames: ['keys', 'key', 'token', 'tokens'] },
             { name: 'folder-layout', folderNames: ['layout', 'layouts'] },
-            { name: 'folder-mail', folderNames: ['mail', 'mails', 'smtp'] },
+            { name: 'folder-mail', folderNames: ['mail', 'mails', 'email', 'emails', 'smtp'] },
             { name: 'folder-mappings', folderNames: ['mappings', 'mapping'] },
             { name: 'folder-meta', folderNames: ['meta'] },
             { name: 'folder-packages', folderNames: ['package', 'packages'] },
-            { name: 'folder-shared', folderNames: ['shared'] },
+            { name: 'folder-shared', folderNames: ['shared', 'common'] },
             { name: 'folder-stack', folderNames: ['stack', 'stacks'] },
             { name: 'folder-template', folderNames: ['template', 'templates'] },
             { name: 'folder-utils', folderNames: ['util', 'utils'] },
@@ -183,6 +183,7 @@ export const folderIcons: FolderTheme[] = [
             { name: 'folder-vue', folderNames: ['components'], enabledFor: [IconPack.Vuex, IconPack.Vue] },
             { name: 'folder-mobile', folderNames: ['mobile', 'mobiles', 'portable'] },
             { name: 'folder-stencil', folderNames: ['.stencil'] },
+            { name: 'folder-firebase', folderNames: ['.firebase'] },
         ]
     },
     { name: 'classic', defaultIcon: { name: 'folder' }, rootFolder: { name: 'folder-root' } },

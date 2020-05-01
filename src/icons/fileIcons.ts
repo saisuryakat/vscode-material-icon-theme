@@ -6,7 +6,7 @@ import { FileIcons, IconPack } from '../models/index';
 export const fileIcons: FileIcons = {
     defaultIcon: { name: 'file' },
     icons: [
-        { name: 'html', fileExtensions: ['html', 'htm', 'xhtml', 'html_vm', 'asp'] },
+        { name: 'html', fileExtensions: ['htm', 'xhtml', 'html_vm', 'asp'] },
         {
             name: 'pug',
             fileExtensions: ['jade', 'pug'],
@@ -433,7 +433,7 @@ export const fileIcons: FileIcons = {
         { name: 'css-map', fileExtensions: ['css.map'] },
         { name: 'lock', fileExtensions: ['lock'] },
         { name: 'handlebars', fileExtensions: ['hbs', 'mustache'] },
-        { name: 'perl', fileExtensions: ['pm'] },
+        { name: 'perl', fileExtensions: ['pm', 'raku'] },
         { name: 'haxe', fileExtensions: ['hx'] },
         { name: 'test-ts', fileExtensions: ['spec.ts', 'e2e-spec.ts', 'test.ts', 'ts.snap'] },
         {
@@ -505,7 +505,7 @@ export const fileIcons: FileIcons = {
             fileExtensions: ['tf', 'tf.json', 'tfvars', 'tfstate']
         },
         { name: 'laravel', fileExtensions: ['blade.php', 'inky.php'] },
-        { name: 'applescript', fileExtensions: ['applescript'] },
+        { name: 'applescript', fileExtensions: ['applescript', 'ipa'] },
         { name: 'cake', fileExtensions: ['cake'] },
         { name: 'cucumber', fileExtensions: ['feature'] },
         { name: 'nim', fileExtensions: ['nim', 'nimble'] },
@@ -705,7 +705,8 @@ export const fileIcons: FileIcons = {
                 '.eslintrc.yml',
                 '.eslintrc.json',
                 '.eslintrc',
-                '.eslintignore'
+                '.eslintignore',
+                '.eslintcache'
             ]
         },
         {
@@ -762,6 +763,7 @@ export const fileIcons: FileIcons = {
         },
         { name: 'code-climate', fileNames: ['.codeclimate.yml'], light: true },
         { name: 'prettier', fileNames: ['.prettierrc', 'prettier.config.js', '.prettierrc.js', '.prettierrc.json', '.prettierrc.yaml', '.prettierrc.yml', '.prettierignore'] },
+        { name: 'apollo', fileNames: ['apollo.config.js'] },
         { name: 'nodemon', fileNames: ['nodemon.json', 'nodemon-debug.json'] },
         { name: 'ngrx-reducer', fileExtensions: ['reducer.ts', 'rootReducer.ts'], enabledFor: [IconPack.Ngrx] },
         { name: 'ngrx-state', fileExtensions: ['state.ts'], enabledFor: [IconPack.Ngrx] },
@@ -809,7 +811,7 @@ export const fileIcons: FileIcons = {
         { name: 'foxpro', fileExtensions: ['fxp', 'prg'] },
         { name: 'i18n', fileExtensions: ['pot', 'po', 'mo'] },
         { name: 'webassembly', fileExtensions: ['wat', 'wasm'] },
-        { name: 'semantic-release', light: true, fileNames: ['.releaserc', 'release.config.js'] },
+        { name: 'semantic-release', light: true, fileNames: ['.releaserc', '.releaserc.yaml', '.releaserc.yml', '.releaserc.json', '.releaserc.js', 'release.config.js'] },
         { name: 'bitbucket', fileNames: ['bitbucket-pipelines.yaml', 'bitbucket-pipelines.yml'] },
         { name: 'jupyter', fileExtensions: ['ipynb'] },
         { name: 'd', fileExtensions: ['d'] },
@@ -881,6 +883,15 @@ export const fileIcons: FileIcons = {
         { name: 'capacitor', fileNames: ['capacitor.config.json'] },
         { name: 'sketch', fileExtensions: ['sketch'] },
         { name: 'adonis', fileNames: ['.adonisrc.json'] },
+        {
+            name: 'uml',
+            fileExtensions: ['iuml', 'pu', 'puml', 'plantuml', 'wsd'],
+            light: true,
+        },
         { name: 'meson', fileNames: ['meson.build'] },
+        { name: 'commitlint', fileNames: ['.commitlintrc', '.commitlintrc.js', 'commitlint.config.js', '.commitlintrc.json', '.commitlint.yaml', '.commitlint.yml'] },
+        { name: 'buck', fileNames: ['.buckconfig'] },
+        { name: 'dhall', fileExtensions: ['dhall', 'dhallb'] },
+        { name: 'nrwl', fileNames: ['nx.json'] },
     ]
 };
